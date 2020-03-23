@@ -10,4 +10,3 @@ MODULE = cipher_test.simon_offtarget
 
 include $(shell cocotb-config --makefiles)/Makefile.inc
 include $(shell cocotb-config --makefiles)/Makefile.sim
-

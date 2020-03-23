@@ -37,18 +37,18 @@ module simon_top #(
 	input rst,
 
 	//Encrypter Inputs
-	input [255:0] dec_data_in,
-	input         dec_data_in_vld,
-	output        dec_data_in_rdy,
+	input [255:0] enc_data_in,
+	input         enc_data_in_vld,
+	output        enc_data_in_rdy,
 
-	input [255:0] dec_key_in,
-	input         dec_key_in_vld,
-	output        dec_key_in_rdy,
+	input [255:0] enc_key_in,
+	input         enc_key_in_vld,
+	output        enc_key_in_rdy,
 
 	//Encrypter Output
-	output [255:0] dec_data_out,
-	output         dec_data_out_vld,
-	input          dec_data_out_rdy,
+	output [255:0] enc_data_out,
+	output         enc_data_out_vld,
+	input          enc_data_out_rdy,
 
 	//Decrypter Inputs
 	input [255:0] dec_data_in,

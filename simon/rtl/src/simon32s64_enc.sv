@@ -1,4 +1,4 @@
-module simon32s64_enc #()(
+module simon32s64_enc(
 	input clk,
 	input rst,
 	input [31:0] enc_data_in,

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Installing dependencies: iverilog, python-dev, gtkwave"
+sudo apt install iverilog python3-dev gtkwave
+
+echo "Creating a python virtual environment"
+rm -rf verif_venv
+python3.7 -m venv verif_venv
+
+echo "Installing cocotb"
+source verif_venv/bin/activate
+pip install --upgrade pip
+pip install wheel cocotb
+pip install ../../../cipher_test
+

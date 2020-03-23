@@ -1,4 +1,4 @@
-module simon32s64 #() (
+module simon32s64 (
 	input clk,
 	input rst,
 

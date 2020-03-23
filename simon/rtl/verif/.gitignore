@@ -1,0 +1,4 @@
+results.xml
+build/*
+sim_build/*
+verif_venv/*

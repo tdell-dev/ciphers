@@ -1,4 +1,4 @@
-module simon_enc_subkey #( ) (
+module simon_subkey (
 	input clk,
 	input rst,
 	input [255:0] enc_key_in,
